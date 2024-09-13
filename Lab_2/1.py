@@ -1,6 +1,6 @@
 from PIL import Image
 
-path = "RGB.jpg"
+path = "bird.jpg"
 
 with Image.open(path) as img:
     img.load()
